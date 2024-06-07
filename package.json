@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^20.14.2",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.22.5",
+    "drizzle-orm": "^0.31.2",
+    "postgres": "^3.4.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "introspect": "drizzle-kit introspect",
+    "start": "ts-node src/main.ts"
+  }
+}
